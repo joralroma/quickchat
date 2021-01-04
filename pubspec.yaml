@@ -1,0 +1,70 @@
+name: chatquick
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  get: ^3.15.0
+  http: ^0.12.2
+  dartz: ^0.9.2
+  animate_do: ^1.7.5
+  flutter_svg: ^0.19.1
+  web_socket_channel: ^1.1.0
+  shared_preferences: ^0.5.12+4
+  flutter_secure_storage: ^3.3.5
+  pusher_websocket_flutter: ^0.1.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets/imgs/
+
+  fonts:
+
+    - family: NunitoRegular
+      fonts:
+        - asset: assets/Font/Nunito/Nunito-Regular.ttf
+
+    - family: NunitoSemiBold
+      fonts:
+        - asset: assets/Font/Nunito/Nunito-SemiBold.ttf
+
+    - family: NunitoBold
+      fonts:
+        - asset: assets/Font/Nunito/Nunito-Bold.ttf
+
+    - family: NunitoExtraBold
+      fonts:
+        - asset: assets/Font/Nunito/Nunito-ExtraBold.ttf
+
+    - family: NunitoBlack
+      fonts:
+        - asset: assets/Font/Nunito/Nunito-Black.ttf
+
+    - family: OpenSasRegular
+      fonts:
+        - asset: assets/Font/Open_Sans/OpenSans-Regular.ttf
+
+    - family: OpenSasSemiBold
+      fonts:
+        - asset: assets/Font/Open_Sans/OpenSans-SemiBold.ttf
+
+    - family: OpenSasBold
+      fonts:
+        - asset: assets/Font/Open_Sans/OpenSans-Bold.ttf
+
